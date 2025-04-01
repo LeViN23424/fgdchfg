@@ -1,0 +1,36 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7131],{67496:function(e,t,l){l.d(t,{Z:function(){return EmailScrim}});var i=l(55319),n=l(59288),o=l(98146),a=l(34853),r=l(19493),s=l(75165),d=l(77959),g=l(1230),u=l(50551),h=l(39857),p=l(23089),c=l(5299),x=l(18702),m=l(9071),b=l(9284),f=l(70455),Z=l(85893);let w=(0,i.Z)(r.V,{target:"e13s6dql17",label:"EmailDialog"})("position:fixed;inset:0;overflow-y:auto;top:0;left:0;width:100vw;height:100vh;z-index:",g.Bx,";"),A=(0,i.Z)(r.V.Overlay,{target:"e13s6dql16",label:"EmailDialogOverlay"})("position:absolute;inset:0;background:",p.Z.overlay,";"),v=(0,i.Z)("div",{target:"e13s6dql15",label:"EmailDialogModal"})("background:",p.Z.truewhite,";position:absolute;width:432px;margin:auto;padding:47px 40px 35px 40px;overflow:hidden;",(0,o.C_)("xs","md"),"{width:100%;margin:0;padding:50px 20px 35px;height:100%;display:flex;align-items:center;}",(0,o.C_)("md"),"{top:50%;left:50%;transform:translateX(-50%) translateY(-50%);}"),E=(0,i.Z)("div",{target:"e13s6dql14",label:"EmailDialogContent"})("width:100%;margin:0;",(0,o.C_)("md"),"{width:350px;margin:auto;}"),y=(0,i.Z)("div",{target:"e13s6dql13",label:"EmailScrimHeader"})({name:"zjik7",styles:"display:flex"}),q=(0,i.Z)(r.V.Title,{target:"e13s6dql12",label:"EmailDialogTitle"})("font-family:",c.Z.fontOswald,";font-size:22px;margin:0;line-height:26px;color:",p.Z.black,";"),j=(0,i.Z)(r.V.Description,{target:"e13s6dql11",label:"EmailDialogDescription"})("font-size:14px;color:",p.Z.lightGrayText,";margin-top:11px;border-bottom:1px solid ",p.Z.lighterGrey,";padding-bottom:15px;font-weight:300;width:100%;line-height:20px;"),k=(0,i.Z)("label",{target:"e13s6dql10",label:"EmailDialogLabel"})("font-size:12px;font-weight:300;line-height:15px;color:",p.Z.lightGrayText,";"),C=(0,i.Z)("div",{target:"e13s6dql9",label:"EmailDialogErrorMessage"})("font-family:",c.Z.fontAileron,";font-size:12px;font-weight:400;line-height:0;color:",p.Z.red,";margin:0 0 17px 0;"),B=`
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: 39px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  color: ${p.Z.black};
+  background: ${p.Z.white};
+  border: 1px solid ${p.Z.white};
+  resize: none;
+  opacity: 1;
+  box-shadow: none;
+  -webkit-appearance: none;
+  margin: 5px 0 15px 0;
+`,T=`
+  :focus {
+    outline: none;
+    border: 1px solid ${p.Z.interactiveTextColor};
+    background: ${p.Z.truewhite};
+  }
+`,D=`
+  border: 1px solid ${p.Z.red};
+  background: ${p.Z.truewhite};
+
+  :focus {
+    border: 1px solid ${p.Z.red};
+    background: ${p.Z.truewhite};
+  }
+`,N=(0,i.Z)("input",{target:"e13s6dql8",label:"EmailDialogInput"})(B," ",T," ",({error:e})=>e&&D,";"),R=(0,i.Z)("textarea",{target:"e13s6dql7",label:"EmailDialogMessage"})(B," ",T," height:100px;"),S=(0,i.Z)("button",{target:"e13s6dql6",label:"EmailDialogButton"})("border:none;width:100%;height:40px;font-family:",c.Z.fontAileron,";font-size:14px;font-weight:400;letter-spacing:0.1em;text-align:center;color:",p.Z.truewhite,";background:",p.Z.blue,";cursor:pointer;"),z=(0,i.Z)("div",{target:"e13s6dql5",label:"CloseIcon"})({name:"1bqjnv1",styles:"width:20px;height:20px;text-indent:-9999px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAPBJREFUOBGt1EsSgjAMBmDKeKOydu0N8AzW4whnUK/BFs5U/3RSpoS+ULshGPJNTAuNtfa0LMul+WFRPTkKwRNBD8t0XTceNed5vqFmUEq9WgQTAwMnqj0PccGkKEB3Bt09+MeqDkMIXd211oPDjoIxiIwVqwVT0A4rgTkoiqXAEpTEJIgB0/G5ugIeNsVybWYmk2KXG79r8jl/T+csudCNDZPyPsxRnMTCGeG5NxdmD3YUCyH6a3jNerqWwN3MJEQnm5Him7LBclANuGI1UAl02BEoB6pvoBTYYpfOnDThsH1B7uo+O7zLzsFB/Ntn+wPwm9u4sZGXLQAAAABJRU5ErkJggg==) 50%/100% 100% no-repeat"}),G=(0,i.Z)("button",{target:"e13s6dql4",label:"EmailDialogCloseButton"})("outline:none;position:absolute;right:20px;top:100px;cursor:pointer;border:none;background:none;padding:0;",(0,o.C_)("md"),"{top:20px;}"),M=(0,i.Z)("div",{target:"e13s6dql3",label:"PostSendWrapper"})({name:"xxs4v1",styles:"padding:230px 0"}),P=`
+  font-size: 14px;
+  color: ${p.Z.lightGrayText};
+  text-align: center;
+`,$=(0,i.Z)("div",{target:"e13s6dql2",label:"PostSendTitle"})(P," font-weight:600;margin-bottom:10px;"),I=(0,i.Z)("div",{target:"e13s6dql1",label:"PostSendMessage"})(P,";"),U=(0,i.Z)("div",{target:"e13s6dql0",label:"PostSendToAddresses"})(P," font-weight:400;");function EmailScrim({articleURL:e="",author:t="",emailDialogOpen:l=null,headline:i="",id:o="",img:r="",setEmailDialogOpen:g=null,summary:p="",template:c=""}){let[B,T]=(0,d.useState)(!0),D=(0,d.useRef)(null),P=(0,d.useRef)(null),_=(0,d.useRef)(null),[V,F]=(0,d.useState)({valid:!1,touched:!1}),[X,L]=(0,d.useState)(""),[O,Y]=(0,d.useState)(!1),{isMobile:J}=(0,n.v)(),{hasConsent:K,consentChecked:W}=(0,b.Z)({id:x.Z.recaptchaVendorId}),handleClose=()=>{(g||T)(!1)};(0,d.useEffect)(()=>{let e=[...document.getElementsByTagName("html")][0];J&&l&&(e.style.marginTop="unset")},[l,J]);let Q=!V.touched||V.valid&&V.touched;return(0,Z.jsxs)(w,{open:null===l?B:l,onClose:handleClose,children:[(0,Z.jsx)(A,{}),(0,Z.jsx)(v,{children:(0,Z.jsxs)(E,{children:[(0,Z.jsx)(G,{type:"button",onClick:handleClose,"aria-label":"Close",children:(0,Z.jsx)(z,{})}),O?(0,Z.jsxs)(M,{children:[(0,Z.jsx)($,{children:"Thank You"}),(0,Z.jsx)(I,{children:"This article has been sent to"}),(0,Z.jsx)(U,{children:X})]}):(0,Z.jsxs)(Z.Fragment,{children:[(0,Z.jsx)(y,{children:(0,Z.jsx)(q,{children:i})}),(0,Z.jsx)(j,{children:p}),K?(0,Z.jsxs)(Z.Fragment,{children:[(0,Z.jsx)(k,{children:"To"}),(0,Z.jsx)(N,{ref:P,error:!Q,onChange:()=>{L(P.current.value)},onBlur:()=>{let e=X&&X.split(",")||[],t=!0,l="";e.length>10?(l="You may only specify up to 10 recipients.",t=!1):l=(t=function(e=[]){return e.reduce((e,t)=>{let l=t&&/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,})+$/.test(t.trim());return!1!==e&&l},!0)}(e))?"":"Email address is not valid.";let i={touched:!0,valid:t,inputError:l};return F(i),i},type:"email",autoCorrect:"off",autoCapitalize:"none","data-testid":"emailTo"}),!Q&&(0,Z.jsx)(C,{children:V.inputError||""}),(0,Z.jsx)(k,{children:"Message"}),(0,Z.jsx)(R,{ref:_,maxLength:"500",type:"text",autoComplete:"off",autoCorrect:"off",autoCapitalize:"none","data-testid":"emailMessage"}),(0,Z.jsx)(S,{type:"button",onClick:()=>{Q&&D.current.execute()},children:"SEND"}),(0,Z.jsx)(a.Z,{ref:D,sitekey:"6Le53yIUAAAAAJNRIXVFRauqFbABehXfSaPwi2yQ",size:"invisible",onChange:l=>{let{to:n,msg:a}={to:P.current.value,msg:_.current.value},d=n.replace(/\s+/g,"").split(","),g={to:d,msg:a,url:e,headline:i,byline:`By ${t}`,summ:p||null,id:o,template:c,"g-recaptcha-response":l,img:r||null},x=(0,h.Z)(),handleRequestError=()=>{var e;null===(e=D.current)||void 0===e||e.reset(),F({valid:!1,touched:!0,inputError:"We've encountered an error."})};(0,s.Z)(`${x}/emailthis`).options({credentials:"include",mode:"cors"}).post(g).notFound(handleRequestError).forbidden(handleRequestError).res(e=>{if(e.ok){var t;Y(!0),null===(t=D.current)||void 0===t||t.reset(),(0,u.Z)({event_name:"social_share",social_share_type:"email"})}else handleRequestError()}).catch(handleRequestError)}})]}):!K&&W&&(0,Z.jsx)(f.Z,{children:m.Z.message})]})]})})]})}}}]);

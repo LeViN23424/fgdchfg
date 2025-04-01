@@ -1,0 +1,122 @@
+/* Import Tiempos Headline fonts */
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('https://www.barrons.com/fonts/woffs/tiempos/TiemposHeadline-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('https://www.barrons.com/fonts/woffs/tiempos/TiemposHeadline-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('https://www.barrons.com/fonts/woffs/tiempos/TiemposHeadline-MediumItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 500;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('https://www.barrons.com/fonts/woffs/tiempos/TiemposHeadline-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('https://www.barrons.com/fonts/woffs/tiempos/TiemposHeadline-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+}
+
+/* Import Aileron fonts */
+@font-face {
+  font-family: 'Aileron';
+  src: url('https://www.barrons.com/fonts/woffs/aileron/Aileron-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('https://www.barrons.com/fonts/woffs/aileron/Aileron-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('https://www.barrons.com/fonts/woffs/aileron/Aileron-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('https://www.barrons.com/fonts/woffs/aileron/Aileron-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('https://www.barrons.com/fonts/woffs/aileron/Aileron-LightItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 300;
+  font-display: fallback;
+}
+
+/* Import Oswald fonts */
+@font-face {
+  font-family: 'Oswald';
+  src: url('https://www.barrons.com/fonts/woffs/oswald/Oswald-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('https://www.barrons.com/fonts/woffs/oswald/Oswald-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('https://www.barrons.com/fonts/woffs/oswald/Oswald-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Retina';
+  src: url('https://www.barrons.com/fonts/woffs/retina/Retina-Book.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Retina';
+  src: url('https://www.barrons.com/fonts/woffs/retina/Retina-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+}
