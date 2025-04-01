@@ -1,0 +1,104 @@
+(function() {
+    var ref = encodeURIComponent((parent !== window) ? document.referrer : document.location);
+    
+        const us_privacy = dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["us_privacy"] ?? "";
+        const gpp = dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["gpp"] ?? "";
+        const gpp_sid = dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["gpp_sid"] ?? "";
+        
+        
+            const l = document.createElement("img");
+            let url = "https://idsync.rlcdn.com/425276.gif?partner_uid=c9513886448aa89ffa458886330d586f";
+            
+            if (1) {
+                url += "&ct=4&cv=" + encodeURIComponent(dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["consent_string"] ?? '');
+            } else if (us_privacy != "" && us_privacy != "null") {
+                url += "&us_privacy=" + encodeURIComponent(us_privacy);
+            } else if (gpp != "" && gpp != "null") {
+                url += "&gpp=" + encodeURIComponent(gpp);
+            }
+            if (gpp_sid != "" && gpp_sid != "null") {
+                url += "&gpp_sid=" + encodeURIComponent(gpp_sid);
+            }
+            l.src = url;
+            l.height=0;l.width=0;l.style="display:none; visibility: hidden";
+            document.body.appendChild(l);
+        
+        var r = new XMLHttpRequest();
+        r.withCredentials = true;
+        var s ="r=" + ref;
+        if (!(typeof dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3 === "undefined")) {
+            
+                if (dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["include_rtb"] === 1) {
+                    const b = document.createElement("img");
+                    b.src = "https://x.bidswitch.net/check_uuid/https%3A%2F%2Fdata.dianomi.com%2Ffrontend%2Fbidswitch%3Fuid%3D%24%7BBSW_UUID%7D%26cookie_age%3D%24%7BCOOKIE_AGE%7D%26gdpr%3D1%26gdpr_consent%3DCQPL70AQPL70AAGABCENBjFsAP_gAEPAABpYIGwKwAFAAMAAqABkADgAIAASAAyABoADwAIoAR4AmACcAFUALYAYQAygBuAD8AISARwBHgCcAFGAO4AeIA9oCDgIQARYAnYBWQC6gGcANMAfwBBgCGAFigLzAYyAyQBuoD-wIGgbrAJAAUACQAI4AWwBHACcAHdAQcBCAG6gDhIBwAFQAOAAggBkAGgAPAAmABVAD8AIQARwA7gB7ALzAZIOgIgAVAA4ACCAGQAaAA8ACYAFUAPwAnABRgDuAHsARYBYoC8wGSAP7IQBAAqgDuAWKA_slAJAA4ADwAJgAVQBHACjAWKAvMBkhSAcABUADgAIIAZABoADwAJgAVQA_ACjAIsAsUBeYDJAH9lQAQACgAtloAIA7gAA.YAAAAAAAAAAA%26gdpr_pd%3D0";
+                    b.height=0;b.width=0;b.style="display:none; visibility: hidden";
+                    document.body.appendChild(b);
+                }
+            
+
+            const gdpr = 1;
+            const gdpr_consent = encodeURIComponent(dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["consent_string"] ?? '');
+            
+            if (dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["include_rtb"] === 1) {
+                const m = document.createElement("iframe");
+                m.id = "multisync-iframe";
+                m.sandbox = "allow-forms allow-scripts allow-popups allow-pointer-lock allow-same-origin";
+                m.height = 0; m.width = 0; m.marginwidth = 0; m.marginheight = 0; m.scrolling="no"; m.frameborder = 0; m.style = "border: 0px; display: none;";
+   
+                let url = "https://secure-assets.rubiconproject.com/utils/xapi/multi-sync.html?p=dianomi&endpoint=us-east";
+                url +="&gdpr=" + gdpr + "&gdpr_consent=" + gdpr_consent;
+                if (us_privacy != "" && us_privacy != "null") {
+                    url += "&us_privacy=" + us_privacy;
+                }
+                if (gpp != "" && gpp != "null") {
+                    url += "&gpp=" + gpp;
+                }
+                if (gpp_sid != "" && gpp_sid != "null") {
+                    url += "&gpp_sid=" + gpp_sid;
+                }
+                m.src = url;
+                document.body.appendChild(m);
+            }
+
+            let isDev = !!""
+
+            function getEmptyIframe() {
+                let frame = document.createElement('iframe');
+                frame.setAttribute('frameborder', 0);
+                frame.setAttribute('scrolling', 'no');
+                frame.setAttribute('marginheight', 0);
+                frame.setAttribute('marginwidth', 0);
+                frame.setAttribute('TOPMARGIN', 0);
+                frame.setAttribute('LEFTMARGIN', 0);
+                frame.setAttribute('allowtransparency', 'true');
+                frame.setAttribute('width', 0);
+                frame.setAttribute('height', 0);
+                frame.style = 'border: 0px; display: none;';
+                return frame;
+            }
+            if (dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3["include_rtb"] === 2) {
+                let cookieSyncIframe = getEmptyIframe();
+                cookieSyncIframe.id = 'dianomi-cookie-sync-iframe';
+                let cookieSyncIframeURL = `https://${ isDev ? 'dev' : 'www'}.dianomi.com/prebid/cookie_sync.html?`;
+                cookieSyncIframeURL += 'gdpr=' + gdpr + '&gdpr_consent=' + gdpr_consent;
+                cookieSyncIframeURL += '&args=us_privacy:' + us_privacy, "gpp:" + gpp;
+                cookieSyncIframeURL += '&bidders=rubicon';
+                cookieSyncIframe.src = cookieSyncIframeURL;
+                document.body.appendChild(cookieSyncIframe);
+            }
+        }
+        
+
+    
+        for (var property in dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3) {
+            if (dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3.hasOwnProperty(property)  && dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3[property] !== null) {
+                s += "&" + property + "=" + encodeURIComponent(dianomi_tag_params_0x2EB00DFD24A94C96A4874F358A23D9A3[property]);
+            }
+        }
+        s += "&session=" + encodeURIComponent('c9513886448aa89ffa458886330d586f');
+        
+        r.open("GET", "https://data.dianomi.com/frontend/pixel?" + s, true);
+        r.send();
+    
+
+    })();
