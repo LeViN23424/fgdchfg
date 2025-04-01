@@ -1,0 +1,146 @@
+
+(function() {
+    var startTime = new Date;
+    var counter = 1;
+    var clientParams = {
+'tcfConsentCollector': null
+    };
+
+    var script = document.getElementById('celtra-script-1');
+    if (!script || script.tagName.toLowerCase() !== 'script')
+        throw 'Element with id equal to scriptId does not exist or is not a script.';
+
+    var continueImpression = function() {
+        counter = 0;
+        for (var k in clientParams) {
+            if (clientParams[k] === null)
+                clientParams[k] = { 'status': 'error', 'time': new Date - startTime, 'data': 'Timeout' };
+        }
+        var continueScript = document.createElement('script');
+        var base64ClientParams = btoa(unescape(JSON.stringify(clientParams)));
+        continueScript.src = 'https://ads.celtra.com/consent/w4qmau7MvXB7fbKM2YjEwl9t4F_7_FVj8vTu59basJ1oz53BjIpCxjHnlidlT5vEFbt5qQeuZhr29lAU8GIezXnmzyRY0pgliMKhf-QWzxaMdl1as2u_urb4VXsFw-XkmUw3uuN5AHXcJ-tOwQds2UX2bVrdYWvaTu-cN3VOYZ3YjJcTDUqdfX7j9wZf9Msd4EawWynljE-JrONBN0K6RDwrK93fmVH1STa99odl1NHamnrOQN9FJMxomX3ZVg9Iwg1ejrEF1Cmq_wv8VKfcQhtC0I9-8FrasE-KFc540x6es2slAWa3jxgr1BqhHd3I1Z46YXVs_fOewe3DMtIMT1jeOVFRWh8YAiptSbqD-twe_asKZf5d4P4U4llK3-izPfuS8Qy9FsNL-IClwWynw2h9ElT4MRdDJwxQrurFHwip95YHqT3wXG9Ctugwpf_wbqgIxSJtGXalGDr71OMhiPfB_zSVyyqbzypvF2AAeL8FJWfZvxfQ4YRXTrLvHA1iatnZAhSB0iE7X76fDk0XRSflCDBe4k8cMXewH1JQ9EcDFzlgc4YxvWXi_GTJt7MsmM-g3CrwMFN9VYGI637rjQLO8rtnPqFGuP_my52yUdMxznPqtTGZx4lJ75_A8zY8KSpEBRU_hkdpKA5DKJp3mOyB5Oxpwxp1_PvzxD1n7hhPfdxebIymp8SskKsapjyMNgpPUByFxO5dA8PZkP4hMpfGRhySJlICRe5rYVJxynWhhA6Mw9qc2oIERkpcruMiaFkvV_tcFRlZFt6ygnLkKd748oO7ELzbEHZF_X0YTuDfbXqnO6ElTYG0gJf5CcZ_H6ZstHvQb2QoVjXra7XKT1Z9ApdA50IYN6_fQ84eqBmGQlGuUwAdPrF9UOVIP6nLji1XUBJGOj_r2fns8TZ_6bmspjlYOnby7EKR_9I17tEJo77aFbMn2byyy6A1Ato05t3ZPfamkqKxvgid6axHR54FyKb6YiqyWCeMNG-O_MxJSLlQCQRDpPBZ4r3AdwsZU5t3o9W7i4FPAao8HZp10BilvWuIGukzCK8qX4Kf2nUMJc7rtJqv9fKMAV0h4SK2HU-WKyzQ1DThL1pP0IUoMwq-1Z9rNlVj3YXMHNQ6CkFR8NYgEJNUdGPw1pMH70l_KG0yojeuMrikL8VbMpXOCYfbKIWaP1MTtP7NKY1WNLsK6D07nhATwh42lukdUJToHPmlOizuaAzHfVe9hRBLNdDnzzqi_iM5bcTMrrG7xqahJgy6kWdgST7qT4r19UXZtYet2k_P0Bz7sMayfCga-kWlrqk_tvBoPNyl1_lbN1yNDJ8jA384z6_oGvqfI1yqjV_EwtLuW1KS80GbIzrzYkE839YjdlWprG6R69mkCjjWwHcweXk3f1weduQjLLcao21ZQNTs8tcz6OD-So4-33Fe9ie76Pa1daNdFnnAbQSXd5zWg4bDm8Hf3WlPoQAeS3B8gN2xv6GzYhgR0TdpMiY6fWxkycyn8iHchBhDVEOdFQggAInZxQmqwSB4mjZdkldiWDfORwJ0szC9THEtwg5VvNRgAY0gS4uTr7DDBFmsX9oTthp1T0s9s677fs1HMOstKDJivmMUbE9H48a0U-BJh8EdQNHMkgZr-TL4ptjV3PNluDqcrKKbNd8EzGPU9U9XTnV8PX6m8bN5SVTlxtd5deSanCarKNJ22BYNeI0TBbOCuGVJzjAsT3p3rrkQYQxqpJEqZhlUdodHFz2K5pdek6zRC7bl5da7pRVCmxJ7NKezgcKcxWluZ1eoBQhvmiZdlWjzWiZ0JqaItRWTZJnD4YraBYEu_iMixl3Ox34yIcUuburhmv4DHYSJRc3G4LmMVlZPp7CpWuNu24CALXjDz_HyM7hxhh2LjQUyAn2mYVGEF4yKdluLAOw_neB3VR0ykFKG87_jI-ZLiB9Q-s_sJThjiydF8YAn-i_KJk9zQzsZDG1wb3baKChNmfvo7bvW656ioi_Td0B5SlCD6rqw135_80GkhMBSl4uv4scYK-HiLMBrqaXvIoPA-gGeZZ9x6jTLs_KIVlDPL8Hx5_MLD8wzUV-Vt3D5o1vPtO3BpN30uJ7he6XopMxedj3BpQnzUbFXROyzGRRPHJMtowXCJXNQUVz_XKab3pkZqq8wXlyvjIr1HExmcyOGa2_G2CWApbElvosgnV3GcaiAD9x1fqglLN0i72fnzXMMf54EYeQBbzcfAqluShkRxJYIZAo0NjnVhiGuKnqHdPvZd-2C_JFi29_NOjfORWniEmNFkr8nUKqWERjY9XhKqiy3mCHAt6XFhNie5Upv_i44_k61ZsD7qLCOLD4qyKlS9p3oLeaCCJFmASsvQoWj1LCYDJSZ63wqVAz_L5h4tip44kCCjtFNvjZdZ3b3TIEjQMPoB2Tj7tX5_cmrKT9-cQZbTLA8vUwMljpVl3cXxdpVYFvPpHFBLiLQcUMj3Y0wHuYF4Cwflpd0iM7Oj-eKwvs_hPjR-3BgcMj3UZBleuqdd33GADjdh66jMpv_L04Pk9raxvq4mmWiRCcHUnHq_jDjz3diOLZy2it959TP5TlaLIDN_f0UN-6_KD7mNupsD68HtaotWd0UEnkhXGOU8TaSN_0-jDqp4iXj9FshZ27Z0ogbErKgiBfu_2n8c_4PV18091PHasPdZ5PJkqc9wTiGd4v8wawGso1r3SM-A32sC-EwAam69qZF0VsqjubhJtVgbd9-EoLgvbOTa-QfBj1EsbRzc4wVwky3dGHZW1-GCw208GTkQ10nSoLnNgR6Tz9fdLVmqbh_bQgoSoqojJd53tPxjq3d1t3QG2HGEt8SNdVUY_hyaoCddUR9misnixj-_UY5qipxrzDDTEIYj6W-UAIecMoDnDq0CIzwdUYeN120lOHctTAo5GbaLtn3FuLOFOFEaATmOxxlhsy4kCpKLRCawzypD9gWlkuDpwnfW0zfee09JaEfjMm7t9RNHAlrWk-q30KD6o2fqQTGct5woQXoZEFa1mkVrQ-JD4X5JajD3pdYtkpWVl9cflPvtK8jsnZEmRF91G9DG0iyHQzydkYQcXGh0b5XEc6SoC19g-sSGIl1yk2DaMlBREZtQSiOT5i3eLycVYbiHbHdJdfNS9sgDnfPP-muGb8wBIJ_p0oz4BgCfX8_old-uHYEoWsbyV8xQ4WqnfNpc5RSPsTjbqsdSPkKXaI_SdM3uDPSnJOQHl138d4dO_M2lWRt5u8mhN8BVFKHcRZu7GLfC_eLX7Guu_OmphEzji2zufVz4VYkJGvZU3h0hv6xFEBlgR85Sa6widfGpcsGY5OY15nMBVqyg9XbvbX-TXWeF3cxRW5qXf6dTrAZ5AP2dJBFrW7KCge1EHS5AMfF_mjxD62oe6XD-qifhSNpI8VsKW9_iFohi_i61zbBi5soTnM5Qq6jnPEguT-HHAcPo9BHb0GEGDwuqvsimEtWGv5yP6kgghZIZWkWi9k9NGlM0BmV93j0-LrY292Um0k-hPXknJYPMoi_oUmf-lEYzctsGHyUDz8J42HF6PffFz5XMa-KZGO0K2wHWc-HQVB0iu4LhklC2OAdPyi0D9nx4ZWHLmVjiH-w0__IDhhWMN3no8qRSxudzvWXxpPAA9Ris4Ylln8Td84U03NEFHRJhdHyUKWLTKp8jdz4NbHtW_uFY6MrpwpvPjrcy6UnZvlzW0qo5PHtDe1T_GM6VAfJ7mVKOOXO0uPEY7CSOkdf53260DUJ0BgGlFNLPUKQ7zsIcqM8QHnYOVSFsdyPEEyYfLsEzfaY0GeHzBazUjrYZxqEaoW9pTs2zvMylSySpLyvrSDdArOYORqyLc23eLc53ItdyEYBPTxMqN4NoRe4rINsH0HTsh8wIglMWvJo1SHH-G1R6D5__828DqQCHNe2GJP1Hqv_xDNj7p0wkegL4FjgX7LWjUbreROiQ3e_BcAq2GMT4gaYzpRh-54BHEu5mxrmrQTwY6Ob7G8__UFZJqky0G6vF-wzs3SCDjoNrGYPPX_dTN9f9otjpuvckZTJuiiRnRRL-7Zyz9_QWmeAbqUc-Ot170Lobk-N20s2HeR48Zwek9eTwx3cxmD4j_B0qCl-tZHhDCuE9HxD7XAjQ4E3ViAuQNh2f2Sse1nrIc372oQwk33REQP1Yk7I-LPxjwjsruO0-zCw503rlG_4rnASl7dOt06Dfq1t4AxiBQ-NNmSrDTG7smldwsvuOYtydO_LahNCrMWihpUFpyAFk1eLHKoCNZZEhImJSWfyXRXMMlLP_w?signature=F04ZDZWhpP5LIAJ8JF9SRg&clientParams=' + encodeURIComponent(base64ClientParams);
+        script.parentNode.insertBefore(continueScript, script.nextSibling);
+    };
+
+    var timeoutHandle = setTimeout(continueImpression, 1000);
+    var collectParam = function(name, status, data) {
+        if (clientParams[name] === null) {
+            clientParams[name] = { 'status': status, 'time': new Date - startTime, 'data': data };
+            if (!--counter) {
+                clearTimeout(timeoutHandle);
+                continueImpression();
+            }
+        }
+    };
+
+(function (successCb, errorCb) {
+  function findApi(frameName) {
+    var f = window;
+    var apiFrame;
+
+    while (!apiFrame) {
+      try {
+        if (f.frames[frameName]) apiFrame = f;
+      } catch (e) {
+      }
+      if (f === window.top) break;
+      f = f.parent;
+    }
+
+    return apiFrame;
+  }
+
+  function createApi(name, callback, key) {
+    var frame = findApi(name);
+    if (!frame) return null;
+
+    var callbacks = {};
+    window.addEventListener("message", function (event) {
+      var response = {};
+      try {
+        response = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+      } catch (ignore) {
+      }
+      if (response[key]) {
+        var res = response[key];
+        if (callbacks[res.callId]) {
+          callbacks[res.callId](res.returnValue, res.success);
+          delete callbacks[res.callId];
+        }
+      }
+    }, false);
+
+    return function () {
+      var callId = Math.random() + "";
+      var msg = callback.apply(null, [callId].concat(Array.prototype.slice.call(arguments)));
+      callbacks[callId] = arguments[arguments.length - 1];
+      frame.postMessage(msg, '*');
+    };
+  }
+
+  var tcfApiCallbackWithVersion = function (version) {
+    return function (tcfData, success) {
+      if (!success) {
+        errorCb("TCF api call failed");
+        return;
+      }
+      if (version === 1) {
+        successCb({
+          __version: 1,
+          gdprApplies: tcfData.gdprApplies,
+          vendorConsents: tcfData.vendorConsents,
+          purposeConsents: tcfData.purposeConsents
+        });
+        return;
+      }
+      if (tcfData.eventStatus !== 'tcloaded' && tcfData.eventStatus !== 'useractioncomplete') {
+        return;
+      }
+
+      var consent = tcfData.vendor && tcfData.vendor.consents && !!tcfData.vendor.consents["315"];
+      var interest = tcfData.vendor && tcfData.vendor.legitimateInterests && !!tcfData.vendor.legitimateInterests["315"];
+
+      successCb({
+        __version: 2,
+        gdprApplies: tcfData.gdprApplies,
+        purpose: tcfData.purpose,
+        vendor: {
+          consents: {
+            "315": consent,
+          },
+          legitimateInterests: {
+            "315": interest,
+          }
+        },
+        specialFeatureOptins: tcfData.specialFeatureOptins,
+      });
+    };
+  };
+
+  var cmpApi = createApi("__cmpLocator", function (callId, cmd, arg) {
+    return {
+      __cmpCall: {
+        command: cmd,
+        parameter: arg,
+        callId: callId
+      }
+    };
+  }, "__cmpReturn");
+
+  var tcf2Api = createApi("__tcfapiLocator", function (callId, cmd, version, callback, arg) {
+    return {
+      __tcfapiCall: {
+        command: cmd,
+        parameter: arg,
+        version: version,
+        callId: callId
+      }
+    };
+  }, "__tcfapiReturn");
+
+  if (tcf2Api) tcf2Api('addEventListener', 2, tcfApiCallbackWithVersion(2));
+  else if (cmpApi) cmpApi('getVendorConsents', ["315"], tcfApiCallbackWithVersion(1));
+  else errorCb("No TCF api found");
+}
+)(collectParam.bind(this, 'tcfConsentCollector', 'success'), collectParam.bind(this, 'tcfConsentCollector', 'error'));
+})();
