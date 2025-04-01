@@ -1,0 +1,884 @@
+.barrons-digital {
+  /* Series options */
+  /* colors */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /* bar/column threshold mode and individual bar editing */
+  /*TODO: investigate if opacity applied in charts other than scatter*/
+  /* white stacking stroke */
+  /* Legend */
+  /* Axes */
+  /* Labels */
+  /* zero label for 0 data point */
+  /* Plot bands */
+  /* Gridlines */
+  /* Ticks */
+  /* Tooltips */
+  /* Vertical annotations */
+  /* Horizontal annotations */ }
+  .barrons-digital .highcharts-crosshair {
+    stroke-width: 0px; }
+  .barrons-digital rect,
+  .barrons-digital path {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .highcharts-color-0 .highcharts-graph {
+    stroke: #00234b; }
+  .barrons-digital .highcharts-color-0 .highcharts-area {
+    fill: #00234b; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-0 {
+    fill: #00234b; }
+  .barrons-digital .threshold.negative-color-0 .highcharts-negative {
+    fill: #00234b; }
+  .barrons-digital .threshold .highcharts-color-0.highcharts-negative.custom-negative {
+    fill: #00234b; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-0 .highcharts-point {
+    fill: #00234b; }
+  .barrons-digital .highcharts-markers.highcharts-color-0 path {
+    fill: #00234b; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-0 {
+    fill: #00234b; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-0 {
+    fill: #00234b;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-1 .highcharts-graph {
+    stroke: #006be4; }
+  .barrons-digital .highcharts-color-1 .highcharts-area {
+    fill: #006be4; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-1 {
+    fill: #006be4; }
+  .barrons-digital .threshold.negative-color-1 .highcharts-negative {
+    fill: #006be4; }
+  .barrons-digital .threshold .highcharts-color-1.highcharts-negative.custom-negative {
+    fill: #006be4; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-1 .highcharts-point {
+    fill: #006be4; }
+  .barrons-digital .highcharts-markers.highcharts-color-1 path {
+    fill: #006be4; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-1 {
+    fill: #006be4; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-1 {
+    fill: #006be4;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-2 .highcharts-graph {
+    stroke: #a4e6ff; }
+  .barrons-digital .highcharts-color-2 .highcharts-area {
+    fill: #a4e6ff; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-2 {
+    fill: #a4e6ff; }
+  .barrons-digital .threshold.negative-color-2 .highcharts-negative {
+    fill: #a4e6ff; }
+  .barrons-digital .threshold .highcharts-color-2.highcharts-negative.custom-negative {
+    fill: #a4e6ff; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-2 .highcharts-point {
+    fill: #a4e6ff; }
+  .barrons-digital .highcharts-markers.highcharts-color-2 path {
+    fill: #a4e6ff; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-2 {
+    fill: #a4e6ff; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-2 {
+    fill: #a4e6ff;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-3 .highcharts-graph {
+    stroke: #179596; }
+  .barrons-digital .highcharts-color-3 .highcharts-area {
+    fill: #179596; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-3 {
+    fill: #179596; }
+  .barrons-digital .threshold.negative-color-3 .highcharts-negative {
+    fill: #179596; }
+  .barrons-digital .threshold .highcharts-color-3.highcharts-negative.custom-negative {
+    fill: #179596; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-3 .highcharts-point {
+    fill: #179596; }
+  .barrons-digital .highcharts-markers.highcharts-color-3 path {
+    fill: #179596; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-3 {
+    fill: #179596; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-3 {
+    fill: #179596;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-4 .highcharts-graph {
+    stroke: #61d4c0; }
+  .barrons-digital .highcharts-color-4 .highcharts-area {
+    fill: #61d4c0; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-4 {
+    fill: #61d4c0; }
+  .barrons-digital .threshold.negative-color-4 .highcharts-negative {
+    fill: #61d4c0; }
+  .barrons-digital .threshold .highcharts-color-4.highcharts-negative.custom-negative {
+    fill: #61d4c0; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-4 .highcharts-point {
+    fill: #61d4c0; }
+  .barrons-digital .highcharts-markers.highcharts-color-4 path {
+    fill: #61d4c0; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-4 {
+    fill: #61d4c0; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-4 {
+    fill: #61d4c0;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-5 .highcharts-graph {
+    stroke: #9cb123; }
+  .barrons-digital .highcharts-color-5 .highcharts-area {
+    fill: #9cb123; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-5 {
+    fill: #9cb123; }
+  .barrons-digital .threshold.negative-color-5 .highcharts-negative {
+    fill: #9cb123; }
+  .barrons-digital .threshold .highcharts-color-5.highcharts-negative.custom-negative {
+    fill: #9cb123; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-5 .highcharts-point {
+    fill: #9cb123; }
+  .barrons-digital .highcharts-markers.highcharts-color-5 path {
+    fill: #9cb123; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-5 {
+    fill: #9cb123; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-5 {
+    fill: #9cb123;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-6 .highcharts-graph {
+    stroke: #aab6b3; }
+  .barrons-digital .highcharts-color-6 .highcharts-area {
+    fill: #aab6b3; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-6 {
+    fill: #aab6b3; }
+  .barrons-digital .threshold.negative-color-6 .highcharts-negative {
+    fill: #aab6b3; }
+  .barrons-digital .threshold .highcharts-color-6.highcharts-negative.custom-negative {
+    fill: #aab6b3; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-6 .highcharts-point {
+    fill: #aab6b3; }
+  .barrons-digital .highcharts-markers.highcharts-color-6 path {
+    fill: #aab6b3; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-6 {
+    fill: #aab6b3; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-6 {
+    fill: #aab6b3;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-7 .highcharts-graph {
+    stroke: #bfc8c6; }
+  .barrons-digital .highcharts-color-7 .highcharts-area {
+    fill: #bfc8c6; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-7 {
+    fill: #bfc8c6; }
+  .barrons-digital .threshold.negative-color-7 .highcharts-negative {
+    fill: #bfc8c6; }
+  .barrons-digital .threshold .highcharts-color-7.highcharts-negative.custom-negative {
+    fill: #bfc8c6; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-7 .highcharts-point {
+    fill: #bfc8c6; }
+  .barrons-digital .highcharts-markers.highcharts-color-7 path {
+    fill: #bfc8c6; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-7 {
+    fill: #bfc8c6; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-7 {
+    fill: #bfc8c6;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-8 .highcharts-graph {
+    stroke: #d4dad9; }
+  .barrons-digital .highcharts-color-8 .highcharts-area {
+    fill: #d4dad9; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-8 {
+    fill: #d4dad9; }
+  .barrons-digital .threshold.negative-color-8 .highcharts-negative {
+    fill: #d4dad9; }
+  .barrons-digital .threshold .highcharts-color-8.highcharts-negative.custom-negative {
+    fill: #d4dad9; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-8 .highcharts-point {
+    fill: #d4dad9; }
+  .barrons-digital .highcharts-markers.highcharts-color-8 path {
+    fill: #d4dad9; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-8 {
+    fill: #d4dad9; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-8 {
+    fill: #d4dad9;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-9 .highcharts-graph {
+    stroke: #e5e9e8; }
+  .barrons-digital .highcharts-color-9 .highcharts-area {
+    fill: #e5e9e8; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-9 {
+    fill: #e5e9e8; }
+  .barrons-digital .threshold.negative-color-9 .highcharts-negative {
+    fill: #e5e9e8; }
+  .barrons-digital .threshold .highcharts-color-9.highcharts-negative.custom-negative {
+    fill: #e5e9e8; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-9 .highcharts-point {
+    fill: #e5e9e8; }
+  .barrons-digital .highcharts-markers.highcharts-color-9 path {
+    fill: #e5e9e8; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-9 {
+    fill: #e5e9e8; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-9 {
+    fill: #e5e9e8;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-10 .highcharts-graph {
+    stroke: #f0630c; }
+  .barrons-digital .highcharts-color-10 .highcharts-area {
+    fill: #f0630c; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-10 {
+    fill: #f0630c; }
+  .barrons-digital .threshold.negative-color-10 .highcharts-negative {
+    fill: #f0630c; }
+  .barrons-digital .threshold .highcharts-color-10.highcharts-negative.custom-negative {
+    fill: #f0630c; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-10 .highcharts-point {
+    fill: #f0630c; }
+  .barrons-digital .highcharts-markers.highcharts-color-10 path {
+    fill: #f0630c; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-10 {
+    fill: #f0630c; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-10 {
+    fill: #f0630c;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-11 .highcharts-graph {
+    stroke: #e8861d; }
+  .barrons-digital .highcharts-color-11 .highcharts-area {
+    fill: #e8861d; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-11 {
+    fill: #e8861d; }
+  .barrons-digital .threshold.negative-color-11 .highcharts-negative {
+    fill: #e8861d; }
+  .barrons-digital .threshold .highcharts-color-11.highcharts-negative.custom-negative {
+    fill: #e8861d; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-11 .highcharts-point {
+    fill: #e8861d; }
+  .barrons-digital .highcharts-markers.highcharts-color-11 path {
+    fill: #e8861d; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-11 {
+    fill: #e8861d; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-11 {
+    fill: #e8861d;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-12 .highcharts-graph {
+    stroke: #f1c254; }
+  .barrons-digital .highcharts-color-12 .highcharts-area {
+    fill: #f1c254; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-12 {
+    fill: #f1c254; }
+  .barrons-digital .threshold.negative-color-12 .highcharts-negative {
+    fill: #f1c254; }
+  .barrons-digital .threshold .highcharts-color-12.highcharts-negative.custom-negative {
+    fill: #f1c254; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-12 .highcharts-point {
+    fill: #f1c254; }
+  .barrons-digital .highcharts-markers.highcharts-color-12 path {
+    fill: #f1c254; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-12 {
+    fill: #f1c254; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-12 {
+    fill: #f1c254;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-13 .highcharts-graph {
+    stroke: #ae2819; }
+  .barrons-digital .highcharts-color-13 .highcharts-area {
+    fill: #ae2819; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-13 {
+    fill: #ae2819; }
+  .barrons-digital .threshold.negative-color-13 .highcharts-negative {
+    fill: #ae2819; }
+  .barrons-digital .threshold .highcharts-color-13.highcharts-negative.custom-negative {
+    fill: #ae2819; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-13 .highcharts-point {
+    fill: #ae2819; }
+  .barrons-digital .highcharts-markers.highcharts-color-13 path {
+    fill: #ae2819; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-13 {
+    fill: #ae2819; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-13 {
+    fill: #ae2819;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-14 .highcharts-graph {
+    stroke: #e11500; }
+  .barrons-digital .highcharts-color-14 .highcharts-area {
+    fill: #e11500; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-14 {
+    fill: #e11500; }
+  .barrons-digital .threshold.negative-color-14 .highcharts-negative {
+    fill: #e11500; }
+  .barrons-digital .threshold .highcharts-color-14.highcharts-negative.custom-negative {
+    fill: #e11500; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-14 .highcharts-point {
+    fill: #e11500; }
+  .barrons-digital .highcharts-markers.highcharts-color-14 path {
+    fill: #e11500; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-14 {
+    fill: #e11500; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-14 {
+    fill: #e11500;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-15 .highcharts-graph {
+    stroke: #c13fb2; }
+  .barrons-digital .highcharts-color-15 .highcharts-area {
+    fill: #c13fb2; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-15 {
+    fill: #c13fb2; }
+  .barrons-digital .threshold.negative-color-15 .highcharts-negative {
+    fill: #c13fb2; }
+  .barrons-digital .threshold .highcharts-color-15.highcharts-negative.custom-negative {
+    fill: #c13fb2; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-15 .highcharts-point {
+    fill: #c13fb2; }
+  .barrons-digital .highcharts-markers.highcharts-color-15 path {
+    fill: #c13fb2; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-15 {
+    fill: #c13fb2; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-15 {
+    fill: #c13fb2;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-16 .highcharts-graph {
+    stroke: #ea5f94; }
+  .barrons-digital .highcharts-color-16 .highcharts-area {
+    fill: #ea5f94; }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-16 {
+    fill: #ea5f94; }
+  .barrons-digital .threshold.negative-color-16 .highcharts-negative {
+    fill: #ea5f94; }
+  .barrons-digital .threshold .highcharts-color-16.highcharts-negative.custom-negative {
+    fill: #ea5f94; }
+  .barrons-digital .highcharts-legend-item.highcharts-color-16 .highcharts-point {
+    fill: #ea5f94; }
+  .barrons-digital .highcharts-markers.highcharts-color-16 path {
+    fill: #ea5f94; }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-16 {
+    fill: #ea5f94; }
+  .barrons-digital .highcharts-tooltip .highcharts-color-16 {
+    fill: #ea5f94;
+    font-weight: 700; }
+  .barrons-digital .highcharts-color-17 .highcharts-graph {
+    stroke: rgba(0, 0, 0, 0); }
+  .barrons-digital .highcharts-color-17 .highcharts-area {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital :where(.highcharts-column-series, .highcharts-bar-series) .highcharts-color-17 {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .threshold.negative-color-17 .highcharts-negative {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .threshold .highcharts-color-17.highcharts-negative.custom-negative {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .highcharts-legend-item.highcharts-color-17 .highcharts-point {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .highcharts-markers.highcharts-color-17 path {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .highcharts-markers.highcharts-scatter-series path.highcharts-color-17 {
+    fill: rgba(0, 0, 0, 0); }
+  .barrons-digital .highcharts-tooltip .highcharts-color-17 {
+    fill: rgba(0, 0, 0, 0);
+    font-weight: 700; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-0 {
+    fill: #179596; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-0 .highcharts-point {
+    fill: #179596; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-1 {
+    fill: #39aaab; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-1 .highcharts-point {
+    fill: #39aaab; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-2 {
+    fill: #5abbbc; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-2 .highcharts-point {
+    fill: #5abbbc; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-3 {
+    fill: #92d3d3; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-3 .highcharts-point {
+    fill: #92d3d3; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-4 {
+    fill: #cceded; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-4 .highcharts-point {
+    fill: #cceded; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-5 {
+    fill: #006be4; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-5 .highcharts-point {
+    fill: #006be4; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-6 {
+    fill: #2a8bf8; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-6 .highcharts-point {
+    fill: #2a8bf8; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-7 {
+    fill: #78b7ff; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-7 .highcharts-point {
+    fill: #78b7ff; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-8 {
+    fill: #bfddff; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-8 .highcharts-point {
+    fill: #bfddff; }
+  .barrons-digital .highcharts-pie-series .highcharts-color-9 {
+    fill: #e6f2ff; }
+  .barrons-digital .highcharts-pie-series.highcharts-legend-item.highcharts-color-9 .highcharts-point {
+    fill: #e6f2ff; }
+  .barrons-digital .opacity-1 path,
+  .barrons-digital .opacity-1 rect {
+    opacity: 0.01; }
+  .barrons-digital .opacity-2 path,
+  .barrons-digital .opacity-2 rect {
+    opacity: 0.02; }
+  .barrons-digital .opacity-3 path,
+  .barrons-digital .opacity-3 rect {
+    opacity: 0.03; }
+  .barrons-digital .opacity-4 path,
+  .barrons-digital .opacity-4 rect {
+    opacity: 0.04; }
+  .barrons-digital .opacity-5 path,
+  .barrons-digital .opacity-5 rect {
+    opacity: 0.05; }
+  .barrons-digital .opacity-6 path,
+  .barrons-digital .opacity-6 rect {
+    opacity: 0.06; }
+  .barrons-digital .opacity-7 path,
+  .barrons-digital .opacity-7 rect {
+    opacity: 0.07; }
+  .barrons-digital .opacity-8 path,
+  .barrons-digital .opacity-8 rect {
+    opacity: 0.08; }
+  .barrons-digital .opacity-9 path,
+  .barrons-digital .opacity-9 rect {
+    opacity: 0.09; }
+  .barrons-digital .opacity-10 path,
+  .barrons-digital .opacity-10 rect {
+    opacity: 0.1; }
+  .barrons-digital .opacity-11 path,
+  .barrons-digital .opacity-11 rect {
+    opacity: 0.11; }
+  .barrons-digital .opacity-12 path,
+  .barrons-digital .opacity-12 rect {
+    opacity: 0.12; }
+  .barrons-digital .opacity-13 path,
+  .barrons-digital .opacity-13 rect {
+    opacity: 0.13; }
+  .barrons-digital .opacity-14 path,
+  .barrons-digital .opacity-14 rect {
+    opacity: 0.14; }
+  .barrons-digital .opacity-15 path,
+  .barrons-digital .opacity-15 rect {
+    opacity: 0.15; }
+  .barrons-digital .opacity-16 path,
+  .barrons-digital .opacity-16 rect {
+    opacity: 0.16; }
+  .barrons-digital .opacity-17 path,
+  .barrons-digital .opacity-17 rect {
+    opacity: 0.17; }
+  .barrons-digital .opacity-18 path,
+  .barrons-digital .opacity-18 rect {
+    opacity: 0.18; }
+  .barrons-digital .opacity-19 path,
+  .barrons-digital .opacity-19 rect {
+    opacity: 0.19; }
+  .barrons-digital .opacity-20 path,
+  .barrons-digital .opacity-20 rect {
+    opacity: 0.2; }
+  .barrons-digital .opacity-21 path,
+  .barrons-digital .opacity-21 rect {
+    opacity: 0.21; }
+  .barrons-digital .opacity-22 path,
+  .barrons-digital .opacity-22 rect {
+    opacity: 0.22; }
+  .barrons-digital .opacity-23 path,
+  .barrons-digital .opacity-23 rect {
+    opacity: 0.23; }
+  .barrons-digital .opacity-24 path,
+  .barrons-digital .opacity-24 rect {
+    opacity: 0.24; }
+  .barrons-digital .opacity-25 path,
+  .barrons-digital .opacity-25 rect {
+    opacity: 0.25; }
+  .barrons-digital .opacity-26 path,
+  .barrons-digital .opacity-26 rect {
+    opacity: 0.26; }
+  .barrons-digital .opacity-27 path,
+  .barrons-digital .opacity-27 rect {
+    opacity: 0.27; }
+  .barrons-digital .opacity-28 path,
+  .barrons-digital .opacity-28 rect {
+    opacity: 0.28; }
+  .barrons-digital .opacity-29 path,
+  .barrons-digital .opacity-29 rect {
+    opacity: 0.29; }
+  .barrons-digital .opacity-30 path,
+  .barrons-digital .opacity-30 rect {
+    opacity: 0.3; }
+  .barrons-digital .opacity-31 path,
+  .barrons-digital .opacity-31 rect {
+    opacity: 0.31; }
+  .barrons-digital .opacity-32 path,
+  .barrons-digital .opacity-32 rect {
+    opacity: 0.32; }
+  .barrons-digital .opacity-33 path,
+  .barrons-digital .opacity-33 rect {
+    opacity: 0.33; }
+  .barrons-digital .opacity-34 path,
+  .barrons-digital .opacity-34 rect {
+    opacity: 0.34; }
+  .barrons-digital .opacity-35 path,
+  .barrons-digital .opacity-35 rect {
+    opacity: 0.35; }
+  .barrons-digital .opacity-36 path,
+  .barrons-digital .opacity-36 rect {
+    opacity: 0.36; }
+  .barrons-digital .opacity-37 path,
+  .barrons-digital .opacity-37 rect {
+    opacity: 0.37; }
+  .barrons-digital .opacity-38 path,
+  .barrons-digital .opacity-38 rect {
+    opacity: 0.38; }
+  .barrons-digital .opacity-39 path,
+  .barrons-digital .opacity-39 rect {
+    opacity: 0.39; }
+  .barrons-digital .opacity-40 path,
+  .barrons-digital .opacity-40 rect {
+    opacity: 0.4; }
+  .barrons-digital .opacity-41 path,
+  .barrons-digital .opacity-41 rect {
+    opacity: 0.41; }
+  .barrons-digital .opacity-42 path,
+  .barrons-digital .opacity-42 rect {
+    opacity: 0.42; }
+  .barrons-digital .opacity-43 path,
+  .barrons-digital .opacity-43 rect {
+    opacity: 0.43; }
+  .barrons-digital .opacity-44 path,
+  .barrons-digital .opacity-44 rect {
+    opacity: 0.44; }
+  .barrons-digital .opacity-45 path,
+  .barrons-digital .opacity-45 rect {
+    opacity: 0.45; }
+  .barrons-digital .opacity-46 path,
+  .barrons-digital .opacity-46 rect {
+    opacity: 0.46; }
+  .barrons-digital .opacity-47 path,
+  .barrons-digital .opacity-47 rect {
+    opacity: 0.47; }
+  .barrons-digital .opacity-48 path,
+  .barrons-digital .opacity-48 rect {
+    opacity: 0.48; }
+  .barrons-digital .opacity-49 path,
+  .barrons-digital .opacity-49 rect {
+    opacity: 0.49; }
+  .barrons-digital .opacity-50 path,
+  .barrons-digital .opacity-50 rect {
+    opacity: 0.5; }
+  .barrons-digital .opacity-51 path,
+  .barrons-digital .opacity-51 rect {
+    opacity: 0.51; }
+  .barrons-digital .opacity-52 path,
+  .barrons-digital .opacity-52 rect {
+    opacity: 0.52; }
+  .barrons-digital .opacity-53 path,
+  .barrons-digital .opacity-53 rect {
+    opacity: 0.53; }
+  .barrons-digital .opacity-54 path,
+  .barrons-digital .opacity-54 rect {
+    opacity: 0.54; }
+  .barrons-digital .opacity-55 path,
+  .barrons-digital .opacity-55 rect {
+    opacity: 0.55; }
+  .barrons-digital .opacity-56 path,
+  .barrons-digital .opacity-56 rect {
+    opacity: 0.56; }
+  .barrons-digital .opacity-57 path,
+  .barrons-digital .opacity-57 rect {
+    opacity: 0.57; }
+  .barrons-digital .opacity-58 path,
+  .barrons-digital .opacity-58 rect {
+    opacity: 0.58; }
+  .barrons-digital .opacity-59 path,
+  .barrons-digital .opacity-59 rect {
+    opacity: 0.59; }
+  .barrons-digital .opacity-60 path,
+  .barrons-digital .opacity-60 rect {
+    opacity: 0.6; }
+  .barrons-digital .opacity-61 path,
+  .barrons-digital .opacity-61 rect {
+    opacity: 0.61; }
+  .barrons-digital .opacity-62 path,
+  .barrons-digital .opacity-62 rect {
+    opacity: 0.62; }
+  .barrons-digital .opacity-63 path,
+  .barrons-digital .opacity-63 rect {
+    opacity: 0.63; }
+  .barrons-digital .opacity-64 path,
+  .barrons-digital .opacity-64 rect {
+    opacity: 0.64; }
+  .barrons-digital .opacity-65 path,
+  .barrons-digital .opacity-65 rect {
+    opacity: 0.65; }
+  .barrons-digital .opacity-66 path,
+  .barrons-digital .opacity-66 rect {
+    opacity: 0.66; }
+  .barrons-digital .opacity-67 path,
+  .barrons-digital .opacity-67 rect {
+    opacity: 0.67; }
+  .barrons-digital .opacity-68 path,
+  .barrons-digital .opacity-68 rect {
+    opacity: 0.68; }
+  .barrons-digital .opacity-69 path,
+  .barrons-digital .opacity-69 rect {
+    opacity: 0.69; }
+  .barrons-digital .opacity-70 path,
+  .barrons-digital .opacity-70 rect {
+    opacity: 0.7; }
+  .barrons-digital .opacity-71 path,
+  .barrons-digital .opacity-71 rect {
+    opacity: 0.71; }
+  .barrons-digital .opacity-72 path,
+  .barrons-digital .opacity-72 rect {
+    opacity: 0.72; }
+  .barrons-digital .opacity-73 path,
+  .barrons-digital .opacity-73 rect {
+    opacity: 0.73; }
+  .barrons-digital .opacity-74 path,
+  .barrons-digital .opacity-74 rect {
+    opacity: 0.74; }
+  .barrons-digital .opacity-75 path,
+  .barrons-digital .opacity-75 rect {
+    opacity: 0.75; }
+  .barrons-digital .opacity-76 path,
+  .barrons-digital .opacity-76 rect {
+    opacity: 0.76; }
+  .barrons-digital .opacity-77 path,
+  .barrons-digital .opacity-77 rect {
+    opacity: 0.77; }
+  .barrons-digital .opacity-78 path,
+  .barrons-digital .opacity-78 rect {
+    opacity: 0.78; }
+  .barrons-digital .opacity-79 path,
+  .barrons-digital .opacity-79 rect {
+    opacity: 0.79; }
+  .barrons-digital .opacity-80 path,
+  .barrons-digital .opacity-80 rect {
+    opacity: 0.8; }
+  .barrons-digital .opacity-81 path,
+  .barrons-digital .opacity-81 rect {
+    opacity: 0.81; }
+  .barrons-digital .opacity-82 path,
+  .barrons-digital .opacity-82 rect {
+    opacity: 0.82; }
+  .barrons-digital .opacity-83 path,
+  .barrons-digital .opacity-83 rect {
+    opacity: 0.83; }
+  .barrons-digital .opacity-84 path,
+  .barrons-digital .opacity-84 rect {
+    opacity: 0.84; }
+  .barrons-digital .opacity-85 path,
+  .barrons-digital .opacity-85 rect {
+    opacity: 0.85; }
+  .barrons-digital .opacity-86 path,
+  .barrons-digital .opacity-86 rect {
+    opacity: 0.86; }
+  .barrons-digital .opacity-87 path,
+  .barrons-digital .opacity-87 rect {
+    opacity: 0.87; }
+  .barrons-digital .opacity-88 path,
+  .barrons-digital .opacity-88 rect {
+    opacity: 0.88; }
+  .barrons-digital .opacity-89 path,
+  .barrons-digital .opacity-89 rect {
+    opacity: 0.89; }
+  .barrons-digital .opacity-90 path,
+  .barrons-digital .opacity-90 rect {
+    opacity: 0.9; }
+  .barrons-digital .opacity-91 path,
+  .barrons-digital .opacity-91 rect {
+    opacity: 0.91; }
+  .barrons-digital .opacity-92 path,
+  .barrons-digital .opacity-92 rect {
+    opacity: 0.92; }
+  .barrons-digital .opacity-93 path,
+  .barrons-digital .opacity-93 rect {
+    opacity: 0.93; }
+  .barrons-digital .opacity-94 path,
+  .barrons-digital .opacity-94 rect {
+    opacity: 0.94; }
+  .barrons-digital .opacity-95 path,
+  .barrons-digital .opacity-95 rect {
+    opacity: 0.95; }
+  .barrons-digital .opacity-96 path,
+  .barrons-digital .opacity-96 rect {
+    opacity: 0.96; }
+  .barrons-digital .opacity-97 path,
+  .barrons-digital .opacity-97 rect {
+    opacity: 0.97; }
+  .barrons-digital .opacity-98 path,
+  .barrons-digital .opacity-98 rect {
+    opacity: 0.98; }
+  .barrons-digital .opacity-99 path,
+  .barrons-digital .opacity-99 rect {
+    opacity: 0.99; }
+  .barrons-digital .opacity-100 path,
+  .barrons-digital .opacity-100 rect {
+    opacity: 1; }
+  .barrons-digital .highcharts-graph {
+    stroke-width: 2px;
+    stroke-linecap: square;
+    stroke-linejoin: bevel; }
+  .barrons-digital .highcharts-line-series.highcharts-series.dotted .highcharts-graph {
+    stroke-linecap: round;
+    stroke-dasharray: 0.1 5;
+    stroke-width: 2.5; }
+  .barrons-digital .highcharts-line-series.highcharts-series .highcharts-graph.dotted {
+    stroke-linecap: round;
+    stroke-dasharray: 0.1 5; }
+  .barrons-digital .highcharts-area-series .highcharts-graph {
+    stroke-linecap: square;
+    stroke-linejoin: bevel; }
+  .barrons-digital .highcharts-area-series.stacked .highcharts-graph {
+    stroke: #fff;
+    stroke-width: 1px; }
+  .barrons-digital .stacked rect.highcharts-point {
+    stroke-width: 1px;
+    stroke: #fff; }
+  .barrons-digital .highcharts-dense-data.stacked rect.highcharts-point {
+    stroke-width: 0; }
+  .barrons-digital .highcharts-pie-series .highcharts-point {
+    stroke-width: 1px;
+    stroke: white; }
+  .barrons-digital .highcharts-legend-item text {
+    fill: #6f7878;
+    stroke-width: 0;
+    font-family: "Aileron", sans-serif;
+    font-weight: 400;
+    font-size: 14px; }
+  .barrons-digital .highcharts-legend-item .highcharts-graph {
+    stroke-width: 10;
+    stroke-linecap: butt; }
+  .barrons-digital .highcharts-axis-labels {
+    fill: #6f7878;
+    font-size: 14px;
+    font-family: "Aileron", sans-serif;
+    font-weight: 400;
+    white-space: nowrap; }
+  .barrons-digital .bar-xaxis text {
+    font-family: "Aileron", sans-serif;
+    font-weight: 700;
+    font-size: 14px; }
+  .barrons-digital .highcharts-axis-title {
+    font-family: "Aileron", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    fill: #666; }
+  .barrons-digital .highcharts-data-label text {
+    font-family: "Aileron", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-shadow: none;
+    color: #6f7878; }
+  .barrons-digital .highcharts-column-series .highcharts-data-label text {
+    font-family: "Aileron", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    fill: #666; }
+  .barrons-digital .highcharts-plot-band {
+    fill-opacity: 0.5; }
+    .barrons-digital .highcharts-plot-band--annotation {
+      fill: #666;
+      font-family: "Aileron", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      z-index: 1; }
+    .barrons-digital .highcharts-plot-band--recession {
+      fill: #e6e7e9; }
+    .barrons-digital .highcharts-plot-band--light-blue {
+      fill: #e0e4ea; }
+    .barrons-digital .highcharts-plot-band--alice-blue {
+      fill: #e6f0fc; }
+    .barrons-digital .highcharts-plot-band--light-green {
+      fill: #e7eae1; }
+  .barrons-digital .highcharts-yaxis-grid .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: #e6e6e6; }
+  .barrons-digital .zero-line {
+    stroke: #000000; }
+  .barrons-digital .bar-yaxis .highcharts-grid-line {
+    stroke-width: 0; }
+  .barrons-digital .scatter .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: #e6e6e6; }
+  .barrons-digital .highcharts-yaxis-grid.thumb .highcharts-grid-line {
+    stroke-width: 0; }
+  .barrons-digital .highcharts-xaxis :is(.highcharts-minor-grid-line, .highcharts-axis-line) {
+    stroke-width: 0; }
+  .barrons-digital .highcharts-xaxis .highcharts-tick {
+    stroke: #6f7878; }
+  .barrons-digital .scatter .highcharts-tick {
+    stroke-width: 0; }
+  .barrons-digital .highcharts-tooltip {
+    filter: none; }
+  .barrons-digital .highcharts-tooltip-box {
+    stroke: #ccc;
+    fill: #f7f7f7;
+    fill-opacity: 0.85; }
+  .barrons-digital .highcharts-tooltip text {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Aileron", sans-serif;
+    white-space: normal;
+    overflow: auto; }
+  .barrons-digital .bold-tooltip {
+    font-weight: 700; }
+  .barrons-digital .highcharts-plot-line.horizontal-annotation-0 {
+    stroke: #001e20;
+    stroke-width: 2;
+    shape-rendering: crispEdges; }
+  .barrons-digital .highcharts-plot-line.horizontal-annotation-1 {
+    stroke: #c6ccd1;
+    stroke-width: 2;
+    shape-rendering: crispEdges; }
+  .barrons-digital .highcharts-plot-line {
+    stroke-width: 1px;
+    stroke: #323232;
+    shape-rendering: crispEdges; }
+  .barrons-digital .highcharts-plot-line-label {
+    font-family: "Aileron", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6f7878;
+    fill: #6f7878; }
+  .barrons-digital .highcharts-plot-line.dotted {
+    stroke-width: 2.5;
+    stroke-dasharray: 0.1, 5;
+    stroke-linecap: round; }
+  .barrons-digital .highcharts-annotation-label text {
+    font-family: "Aileron", sans-serif;
+    fill: #6f7878;
+    font-size: 14px;
+    font-weight: 400; }
+  .barrons-digital .annotations-circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke-width: 1px;
+    stroke: #6f7878; }
+  .barrons-digital .annotations-dot {
+    fill: #6f7878; }
+  .barrons-digital defs #shape-custom-arrow-digital path {
+    fill: #6f7878; }
+  .barrons-digital .custom-annotations-arrow {
+    fill: #6f7878; }
+  .barrons-digital .highcharts-strong {
+    font-weight: 800; }
+  .barrons-digital .highcharts-pie-series .highcharts-data-label text {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Aileron", sans-serif;
+    white-space: normal;
+    overflow: auto; }
+  .barrons-digital .highcharts-pie-series .highcharts-data-label-connector {
+    stroke: #6f7878;
+    stroke-width: 1px;
+    fill: rgba(0, 0, 0, 0); }
+
+.barrons-digital.chart-lang-ja .highcharts-root text {
+  font-family: "Noto Sans JP", sans-serif; }
+
+.barrons-digital.chart-lang-ch .highcharts-root text {
+  font-family: Arial, "Heiti SC", "Microsoft Yahei", simsun, sans-serif; }

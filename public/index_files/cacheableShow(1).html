@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html class="no-js" dir="ltr"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if lte IE 9]>
+    <script type="text/javascript" src="/js/angular/angular-ui-ieshiv.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.2.4/json3.min.js"></script>
+    <![endif]-->
+
+    
+    <title>Piano • Client Dashboard</title>
+    <meta property="og:title" content="Piano • Client Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <link href="./template.bundle.1.0.css" rel="stylesheet" type="text/css">
+<link href="./fonts.css" rel="stylesheet" type="text/css">
+
+
+    <script>var TPTemplateType = "TEMPLATE";</script>
+
+    
+
+    <script type="text/javascript" src="./jquery.min.js.Без названия"></script>
+<script type="text/javascript" src="./jquery-migrate.min.js.Без названия"></script>
+<script type="text/javascript" src="./angular.min.js.Без названия"></script>
+<script type="text/javascript" src="./angular-animate.min.js.Без названия"></script>
+<script type="text/javascript" src="./angular-cookies.min.js.Без названия"></script>
+<script type="text/javascript" src="./angular-sanitize.min.js.Без названия"></script>
+<script type="text/javascript" src="./tmhDynamicLocale.min.js.Без названия"></script>
+<script type="text/javascript" src="./angular-ui-utils.min.js.Без названия"></script>
+<script type="text/javascript" src="./angular-ui-ieshiv.js.Без названия"></script>
+<script type="text/javascript" src="./angular-ui-router.min.js.Без названия"></script>
+<script type="text/javascript" src="./H4sIAAAAAAAA_z3IwQ6AIAgA0B9KmJ76m4bJHI6oBa7f7-bt7eEnrXNgEw8Mvh6lYBy-DHVaU95QpTqS9an0pgwFSkHJu63T-yTlgy1Nh-E_BjVxNVoAAAA"></script>
+
+
+
+</head>
+
+<body id="ng-app" class="ng-scope">
+
+<script>
+    var TPConfig = {
+        PATH: "https://buy.tinypass.com"
+    };
+
+    
+var TPParam = {"app":{"name":"Barrons","image1":"/ml/cropped_ETbHfCPwpu_1_sniut7.png","aid":"ETbHfCPwpu","useTinypassAccounts":false,"userProvider":"piano_id_lite","businessUrl":"https://www.barrons.com/","canInitCheckoutWithAnon":false},"LOGIN":"/checkout/user/loginShow","TRANSLATION_CONFIG":{"isStatic":true,"isEnabled":false,"templateContext":null,"version":null,"loadTranslationUrl":null,"initialLocaleId":"en_US","systemDefaultLocale":"en_US","languages":null},"params":{"experienceId":"EXYNY02I0T34","templateVariantId":"OTVZ0ZAZ5IN1E","widget":"template","pianoIdUrl":"https://piano.auth.barrons.com/id/","iframeId":"offer_0283cf4558c01772eea9-0","offerId":"fakeOfferId","templateId":"OTL107287F9W","aid":"ETbHfCPwpu","displayMode":"inline","url":"https://www.barrons.com/"},"TRACK_SHOW":"/checkout/template/trackShow"};
+</script>
+
+<div id="template-container" style="position: relative;"><iframe width="100%" height="100%" style="position: absolute !important; z-index: -1 !important;" src="./saved_resource(14).html"></iframe>
+    <div template="" class="showTemplate">
+        <div class="show-template-error-screen ng-hide" ng-show="terminalError">
+            <div class="error-screen">
+                <div class="row">
+                    <div class="error-notification-icon"></div>
+                    <div class="content">
+                        <div class="error-title">
+                            <b>An error has occurred</b>
+                        </div>
+
+                        <div>
+                            <span class="ng-hide text ng-binding" ng-show="terminalError">
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="!terminalError" class="">
+
+            <div id="cx-non-sub-newslettter-responsive-wrapper" data-template-id="OTL107287F9W" data-template-variant-id="OTVZ0ZAZ5IN1E">
+  <!-- ngIf: title --><h3 class="headline ng-scope" ng-if="title">The Barron's Daily</h3><!-- end ngIf: title -->
+  <!-- ngIf: description --><p class="description ng-scope" ng-if="description">A morning briefing on what you need to know in the day ahead, including exclusive commentary from Barron's and MarketWatch writers.</p><!-- end ngIf: description -->
+
+  <div class="form" ng-hide="hasSubscribed">
+    <p class="error-message ng-binding ng-hide" ng-show="hasError"></p>
+
+    <label for="email">Enter your Email</label>
+    <input ng-model="email" id="email" type="email" value="" maxlength="100" placeholder="Enter your email address" required="" class="ng-pristine ng-invalid ng-invalid-required ng-valid-email">
+
+    <button class="cta-btn btn" type="submit" ng-disabled="isLoading" ng-click="submit()" external-event="non-sub-newsletter-signup" external-event-consent="true" external-event-marketing="true" external-event-email="" external-event-cta-url="https://www.barrons.com/newsletters?sub=462" external-event-params="{&quot;aid&quot;:&quot;ETbHfCPwpu&quot;,&quot;displayMode&quot;:&quot;inline&quot;,&quot;iframeId&quot;:&quot;offer_0283cf4558c01772eea9-0&quot;,&quot;offerId&quot;:&quot;fakeOfferId&quot;,&quot;tags&quot;:&quot;type:home,product:bol,source:barrons online,pageregion:na|us&quot;,&quot;templateId&quot;:&quot;OTL107287F9W&quot;,&quot;templateVariantId&quot;:&quot;OTVZ0ZAZ5IN1E&quot;,&quot;url&quot;:&quot;https://www.barrons.com/&quot;,&quot;width&quot;:940,&quot;trackingId&quot;:&quot;{kpdx}AAAAwDEWAq7ygwoKRVRiSGZDUHdwdRIQbTh5NDJ5Yzd1a3hucTNsYRoMRVhZTlkwMkkwVDM0IiUxODA3cGEwMGJzLTAwMDAzNWZnMGhrcDdqcWgxODc0aW51YW5vKhpzaG93VGVtcGxhdGU3VE5QUkVJMVlET1g2MjABOgxPVEwxMDcyODdGOVdCDU9UVlowWkFaNUlOMUVSEnYthADwGXBmc2EwYTM1aG9aDTMxLjIyMC40NC4xMjFiA2R3Y2i_r7O_BnACeAQ&quot;,&quot;experienceId&quot;:&quot;EXYNY02I0T34&quot;,&quot;experienceExecutionId&quot;:&quot;1807pa00bs-000035fg0hkp7jqh1874inuano&quot;,&quot;experienceActionId&quot;:&quot;showTemplate7TNPREI1YDOX62&quot;}" style="color: #FFFFFF; background-color: #007BBD;">
+      <span class="loading-btn loading-btn-animation ng-hide" ng-show="isLoading"></span>
+      <span ng-hide="isLoading" class="">SIGN UP</span>
+    </button>
+  </div>
+
+  <div class="success-message ng-hide" ng-show="hasSubscribed">
+    <p class="description">Thanks for signing up! Please check your inbox. We've sent a confirmation email for your subscription to the newsletter.</p>
+    <button class="btn alt-action-btn" ng-click="close()" style="color: #FFFFFF; background-color: #007BBD;">
+      Continue Reading
+    </button>
+  </div>
+</div>
+
+<div custom-script="" class="ng-isolate-scope"></div>
+
+        </div>
+    </div>
+
+</div>
+
+<style type="text/css" tp-style="template-custom-style">
+    /* Default CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#cx-non-sub-newslettter-responsive-wrapper {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 30, 32, 0.3);
+  border-top: 10px solid #1a2737;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flashline {
+  color: #0080c3;
+  font-size: 13px;
+  font-family: "Aileron", arial, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 14px;
+  box-sizing: border-box;
+  margin: 0 0 8px 0;
+  height: 14px;
+}
+
+.headline {
+  color: #001e20;
+  font-family: "Tiempos Headline", arial, serif;
+  text-align: left;
+  letter-spacing: 0;
+  height: 26px;
+  font-size: 24px;
+  line-height: 27px;
+  margin: 0 0 6px 0;
+}
+
+.description {
+  margin: 0;
+  color: #415154;
+  font-family: "Aileron", arial, sans-serif;
+  text-align: left;
+  letter-spacing: 0;
+  font-size: 18px;
+  line-height: 156%;
+}
+
+.form {
+  margin: 0;
+  padding: 14px 0;
+}
+
+label {
+  display: flex;
+}
+
+.error-message {
+  display: block;
+  margin: 20px auto 10px auto;
+  color: #f12b2b;
+  font-family: "Aileron", arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+input[type="email"] {
+  width: 247px;
+  height: 44px;
+  background: #ffffff;
+  display: inline-block;
+  outline: none;
+  padding: 4px 10px 4px 10px;
+  margin: 10px 10px 10px auto;
+  line-height: 19px;
+  box-sizing: border-box;
+  font-family: "Aileron", arial, sans-serif;
+  font-size: 16px;
+  color: #415154;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 154px;
+  height: 45px;
+  background-color: #0080c3;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Aileron", arial, sans-serif;
+  cursor: pointer;
+}
+
+label[for="email"] {
+  display: none;
+}
+
+.alt-action-btn {
+  margin: 0 auto;
+  border: 0;
+}
+
+.success-message {
+  padding: 14px 0;
+}
+
+.success-message .description {
+  margin: 0 0 18px 0;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Aileron", arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+/* Loading Animation */
+@keyframes loadspin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* Loading Animation */
+@keyframes loadspin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Loader & Loading Animation */
+.loading-btn {
+  display: inline-block;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.loading-btn-animation {
+  border-top: 1px solid transparent;
+  animation: loading infinite linear 1s;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    opacity: 0.35;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-animation {
+  margin: 0 auto;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation-name: loadspin;
+  animation-name: loadspin;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;"><div id="popup-title" class="modal-header"></div><div id="popup-content" class="modal-body"></div><div id="popup-controls" class="modal-footer"></div></div><script type="text/javascript">try {
+
+  const scope = angular.element(document.querySelector('#cx-non-sub-newslettter-responsive-wrapper')).scope();
+  
+  <!--since template content fields can contain apostrophe we have to check for this using js-->
+  scope.title = `The Barron's Daily`;
+  scope.description = `A morning briefing on what you need to know in the day ahead, including exclusive commentary from Barron's and MarketWatch writers.`;
+
+  <!-- handle newsletter sign up -->
+  scope.isLoading = false;
+  scope.hasSubscribed = false;
+  scope.hasError = false;
+  scope.errorMessage = '';
+
+  <!-- handle animation when CTA button is clicked  -->
+  scope.submit = () => {
+    scope.isLoading = true;
+  };
+  
+  <!-- handle newseltter signup message -->
+  window.addEventListener('message', (e) => {
+    e.preventDefault();
+    const { piano } = e.data;
+    
+    if (typeof piano === 'undefined') { return; }
+
+    const { success, message } = piano;
+    scope.isLoading = false;
+    scope.hasSubscribed = success;
+    scope.hasError = !success;
+    scope.errorMessage = message;
+  }, false);
+
+} catch (e) { console.error(e); }</script></body></html>

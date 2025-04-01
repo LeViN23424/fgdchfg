@@ -1,0 +1,72 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6029],{35432:function(e,i,t){t.d(i,{Z:function(){return UtilityNav$1}});var a=t(55319),n=t(77959),r=t(23502),l=t(53),o=t(82051),s=t(33201),d=t(40807),p=t(94707),c=t(84228),u=t(36229),h=t(85893);let g=(0,a.Z)(r.M,{target:"eu34jwn10",label:"NavGrid"})("position:fixed;height:",53,"px;",({theme:e,isTop:i})=>`
+    ${i?`border-block-end: 1px solid ${e.colors.interface040};`:""}
+    background-color: ${e.colors.interfaceBackground};
+    inset: ${i?"0 0 auto":"auto 0 0"};
+
+    @supports not (inset: 0 0 auto) {
+      ${i?"top: 0;":"bottom: 0;"}
+      left: 0;
+      right: 0;
+    }
+  `," ",({isMinimal:e})=>e&&`padding-block-end: 18px;
+     height: 71px;
+     `,";"),x=(0,a.Z)(r.v,{target:"eu34jwn9",label:"SpacedGridItem"})(({hasMarketData:e,headlineVisibilityBreakpoint:i,isHeadline:t,isTop:a,theme:n})=>`
+    padding-block-start: ${n.spacePresets[a?"space010":"space020"]};
+    padding-block-end: ${n.spacePresets[a?"space020":"space010"]};
+    ${t&&`
+        @media (max-width: ${n.breakpoints[i]-1}px) {
+          display: none;
+        }
+      `}
+
+    ${e&&"overflow: hidden;"}
+  `,";"),w=(0,a.Z)("div",{target:"eu34jwn8",label:"ChicletContainer"})(({theme:e})=>`
+    padding-block-start: ${e.spacePresets.space010};
+    padding-block-end: ${e.spacePresets.space020};
+  `,";"),m=(0,a.Z)(r.v,{target:"eu34jwn7",label:"ScrollbarGridLayoutItem"})(({theme:e,isTop:i})=>`
+    ${i?"":`border-block-end: 1px solid ${e.colors.interface040};`}
+  `,";"),b=(0,a.Z)(l.g,{target:"eu34jwn6",label:"UtilityBarWrapper"})(({showMarketData:e,theme:i})=>!e&&`
+    @media (max-width: ${i.breakpoints.md-1}px) {
+      width: 348px;
+    }
+  `," ",({showMarketData:e,theme:i})=>e&&`
+    @media (max-width: ${i.breakpoints.md-1}px) {
+      width: 286px;
+    }
+  `," ",({theme:e})=>`
+    @media (max-width: ${e.breakpoints.sm-1}px) {
+      width: 286px;
+    }
+  `,";"),f=(0,a.Z)(o.a,{target:"eu34jwn5",label:"TextTruncate"})({name:"l8l8b8",styles:"white-space:nowrap;overflow:hidden;text-overflow:ellipsis"}),k=(0,a.Z)(l.g,{target:"eu34jwn4",label:"MarketDataWrapper"})(({theme:e,minVisibilityBreakpoint:i})=>`
+    align-items: center;
+    background-color: ${e.colors.interfaceBackground};
+    border-block-end: 1px solid ${e.colors.interface040};
+    display: flex;
+    flex-direction: column;
+    inset: 0 0 auto;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    @supports not (inset: 0 0 auto) {
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+    @media (min-width: ${e.breakpoints[i]}px) {
+      display: none;
+    }
+  `," ",({isMinimal:e})=>e&&`display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+     `,";"),j=(0,a.Z)(o.a,{target:"eu34jwn3",label:"ArticleTitle"})(({theme:e})=>`
+    color: ${e.colors.inkSubtle};
+    overflow: hidden;
+    padding: ${e.spacePresets.space020} ${e.spacePresets.space020} 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+  `," ",({isMinimal:e})=>e&&`text-align: inherit;
+
+    `,";"),v=(0,a.Z)("button",{target:"eu34jwn2",label:"CloseButton"})({name:"bkyexf",styles:"display:block;top:5px;right:5px;border:none;width:40px;height:40px;cursor:pointer;background-color:unset;align-self:center;margin-left:8px;margin-right:8px"}),y=(0,a.Z)("svg",{target:"eu34jwn1",label:"CloseIcon"})("width:24px;height:24px;color:",({theme:e})=>e.colors.inkBase,";"),$=(0,a.Z)("div",{target:"eu34jwn0",label:"ColumnContainer"})({name:"1cwloic",styles:"width:100%;overflow:hidden"});var UtilityNav$1=({articleHeadline:e="There’s a New Media Mogul Tearing Up Hollywood: ‘Zas Is Not Particularly Patient’",brandLogo:i="",brandLogoAlt:t="Brand Logo",brandLogoOverrides:a={height:"28px",width:"auto"},brandLogoUrl:r="https://www.wsj.com/",burgerMenuHandler:l=()=>{},burgerMenuIcon:o=null,children:B,closeIcon:C="",handleDataDrawerClose:M=()=>{},headlineVisibilityBreakpoint:Z="lg",isDrawerVisible:I=!1,isMinimal:P=!1,isScrollTrackerPolyfillActive:N=!0,position:S="top",scrollTrackerTargetRef:T,showHamburgerMenu:D=!0,templateColumns:E={lg:"auto minmax(200px, 1fr) auto",md:"auto auto",xs:"auto"},templateColumnsItems:H={marketDataSlot:{sm:"3",xs:"1"},progressBar:{lg:"1 / 4",md:"1 / 3",xs:"1"},utilityBar:{lg:"3",md:"2",xs:"1"}}})=>{let U=n.Children.toArray(B),_=U.find(e=>{var i;return(null==e?void 0:null===(i=e.props)||void 0===i?void 0:i.slotName)==="utilitybar"}),z=U.find(e=>{var i;return(null==e?void 0:null===(i=e.props)||void 0===i?void 0:i.slotName)==="marketdatanav"}),A="top"===S,G=!!z;return(0,h.jsxs)(h.Fragment,{children:[G&&(0,h.jsxs)(k,{as:"nav",minVisibilityBreakpoint:Z,isMinimal:P,children:[(0,h.jsxs)($,{isMinimal:P,showMarketData:G,children:[(0,h.jsx)(j,{noCrop:!0,typographyPreset:"utilityHeading010",isMinimal:P,children:e}),z]}),P&&I&&(0,h.jsx)(v,{"aria-label":"Close dialog",onClick:M,disabled:!1,children:C&&(0,h.jsx)(y,{as:C})})]}),(0,h.jsxs)(g,{as:"nav","aria-label":"Utility Nav",columns:E,isTop:A,isMinimal:P,children:[!P&&(0,h.jsx)(x,{row:"1",column:"1",paddingInlineStart:"space020",isTop:A,children:(0,h.jsxs)(s.K,{flow:"horizontal-center",stackDistribution:"flex-start",children:[D&&(0,h.jsx)(d.h,{size:"large",overrides:{height:"space070",marginInlineEnd:"space040",paddingBlock:"space010",paddingInline:"space010",stylePreset:"buttonMinimalSecondary",width:"space070"},onClick:l,"aria-label":"Open Navigation Menu",children:(0,h.jsx)(o,{})}),(0,h.jsx)(p.H,{overrides:{marginInlineEnd:"space050"},href:r,external:!1,children:(0,h.jsx)(c.E,{src:i,alt:t,overrides:a})})]})}),(0,h.jsx)(x,{column:"2",headlineVisibilityBreakpoint:Z,hasMarketData:G,isTop:A,isHeadline:!0,marginInlineEnd:G?"space010":"space090",row:"1",children:(0,h.jsxs)(s.K,{flow:"horizontal-center",stackDistribution:"flex-start",children:[(0,h.jsx)(f,{noCrop:!0,typographyPreset:"utilitySubheading010",children:e}),null!=z?z:(0,h.jsx)(w,{column:H.marketDataSlot,marginInlineEnd:G?"space010":"space090",row:"1",isTop:A,minVisibilityBreakpoint:Z,children:z})]})}),(0,h.jsx)(x,{row:"1",column:H.utilityBar,alignSelf:"center",justifySelf:{md:"end",xs:"center"},paddingInlineEnd:"space020",isTop:A,children:(0,h.jsx)(b,{showMarketData:G,children:_})}),(0,h.jsx)(m,{row:"1",column:H.progressBar,alignSelf:A?"end":"start",isTop:A,children:(0,h.jsx)(u.Z,{targetRef:T,navHeight:53,isPolyfillActive:N})})]})]})}}}]);

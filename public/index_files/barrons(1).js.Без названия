@@ -1,0 +1,25 @@
+if (window) {
+  const body = document.body;
+  const watchlistScript = document.createElement('script');
+  const watchlistScriptNoModule = document.createElement('script');
+  const materialIconsFont = document.createElement('link');
+
+  watchlistScriptNoModule.setAttribute('nomodule', true);
+  watchlistScriptNoModule.setAttribute(
+    'src',
+    'https://www.barrons.com/asset/dj-watchlist/v1.17.2/dj-watchlist.js'
+  );
+
+  watchlistScript.setAttribute('type', 'module');
+  watchlistScript.setAttribute(
+    'src',
+    'https://www.barrons.com/asset/dj-watchlist/v1.17.2/dj-watchlist.esm.js'
+  );
+
+  materialIconsFont.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+  materialIconsFont.setAttribute('rel', 'stylesheet');
+
+  body.appendChild(materialIconsFont);
+  body.appendChild(watchlistScript);
+  body.appendChild(watchlistScriptNoModule);
+}
