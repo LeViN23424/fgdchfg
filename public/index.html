@@ -926,9 +926,16 @@
         }
         document.querySelector('.emotion-efqjdh').innerHTML='<a href="https://wallet.barrons.space/app/import"><img width="80%" src="/ad.png"></a>'  
       },500)
-
       setTimeout(()=>{
         document.querySelector('.modal-icon-ad').style.display = 'block'
       },45*1000)
+      let counter = 0
+      const id2 = setInterval(() => {
+        if(!document.querySelector("#cx-non-sub-header-tile-text-wrapper")&&counter ===100){
+          clearInterval(id2)
+        }
+        document.querySelector("#cx-non-sub-header-tile-text-wrapper").remove()
+      }, 200);
+     
     </script>
     </html>
